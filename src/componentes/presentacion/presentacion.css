@@ -1,0 +1,14 @@
+.presentacion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+
+.presentacion img{
+    border-radius: 200px;
+    width: 200px;
+    height: 100%;
+    object-fit:cover;
+    cursor: pointer;
+}

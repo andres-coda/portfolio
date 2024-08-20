@@ -1,0 +1,47 @@
+{
+    "eperiencias":
+    [
+        {
+            "nombre": "Cervecería Green Beer",
+            "enlaceGitFront":"https://github.com/andres-coda/cerveceriaFrontEnd",
+            "enlaceGitBack":"https://github.com/Facundo-Alvarez-Torriglia/cerveceriaBackend2024.git",
+            "enlace": "https://greenbeercerveceria-e4fdb.firebaseapp.com",
+            "img": [
+                {
+                    "titulo":"Cervecería Green Beer",
+                    "img":"src/assets/cerveceria1.svg"
+                },
+                {
+                    "titulo":"Cervecería Green Beer",
+                    "img":"src/assets/cerveceria2.svg"
+                },
+                {
+                    "titulo":"Cervecería Green Beer",
+                    "img":"src/assets/cerveceria3.svg"
+                },
+                {
+                    "titulo":"Cervecería Green Beer",
+                    "img":"src/assets/cerveceria4.svg"
+                },
+                {
+                    "titulo":"Cervecería Green Beer",
+                    "img":"src/assets/cerveceria5.svg"
+                }
+            ],
+            "descripcion":[
+                "Este proyecto fue desarrollado en colaboración con Carla Arean, Facundo Álvarez Torriglia y Juan Curutchet, en el marco de la carrera de Desarrollo Web Full Stack.",
+                "En el backend, creamos una API utilizando Node.js y Nest.js, empleando TypeORM como tecnología de persistencia y utilizando una base de datos relacional MySQL.",
+                "En el frontend, utilizamos React.js para desarrollar cada una de las pantallas y su funcionalidad.",
+                "La aplicación emplea guardias de autenticación (UseGuards()) para proteger las rutas y gestionar el acceso de dos tipos de usuarios con diferentes niveles de privilegios. Además, incluye un carrito de compras funcional, capacidad para realizar reservas y soporte para pagos a través de medios digitales, aunque estos últimos son de forma ficticia."
+            ]
+        }
+    ],
+    "sobreMi":{
+        "img": "src/assets/andres.jpeg",
+        "titulo": "<  Desarrollador web Full Stack  />",
+        "descripcion":[
+            {"desp":"Esta es una bienvenida a un viaje por mi vida en forma de código"},
+            {"desp":"Quedate, no lo vas a poder creer"}
+        ]
+    }
+}

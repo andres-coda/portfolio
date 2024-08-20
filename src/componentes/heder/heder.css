@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 100%;
+    padding: 0.2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-sizing: border-box;
+    background-color: var(--color3);
+}
+
+.header a{
+    padding: 0.3rem 0.5rem;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    color: var(--color4);
+    text-decoration: none;
+}
+
+.header a:hover{
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px black;
+    background-color: var(--color31);
+    color: var(--color41);
+    font-weight: 600;
+}

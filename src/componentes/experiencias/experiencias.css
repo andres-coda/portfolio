@@ -1,0 +1,142 @@
+.experiencias{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+}
+
+.exp-interno{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.exp-img{
+    max-width: 575px;
+    min-width: 570px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  max-height: 40vh;
+}
+
+.exp-img img{
+    position: relative;
+    width: 100%;
+    height: 35vh;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.exp-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-left: 1rem;
+    width: 100%;
+}
+
+.exp-texto p{
+    text-align: start;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.flechaAnt,
+.flechaSig {
+  position: absolute;
+  top: 0;
+  transform: translateY(-10%);
+  background-color: var(--color25);
+  border-radius: 50px !important;
+  z-index: 200;
+  width: 36px !important;
+  height: 36px !important;
+  cursor: pointer;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.flechaSig{
+    right: 50px;
+}
+
+.flechaAnt{
+    left: 50px;
+}
+.exp-img img:not(.flechaAnt):not(.flechaSig){
+    max-width: 100%;
+    display: block;
+  }
+
+  .flechaAnt:hover,
+.flechaSig:hover{
+    background-color: var(--color2);
+    box-shadow: 2px 2px 2px var(--color1);
+    transform: scale(1.4);
+}
+
+.miniImg{
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
+    transform: translateY(-10%);
+    background-color: transparent;
+    z-index: 200;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.miniImg img{
+    height: 35px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 1rem;
+    box-shadow: 2px 2px 2px var(--color2);
+    cursor: pointer;    
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.miniImg img:hover{
+    transform: scale(1.8);
+}
+
+.exp-enlaces{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.exp-enlaces h6{
+    margin: 0.5rem 0;
+    width: 100%;
+    padding: 0.2rem;
+    border: 1px solid var(--color1);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.exp-enlaces h6:hover{
+    background-color: var(--color25);
+}
+
+@media(max-width:1200px){
+    .exp-interno{
+        display: flex;
+        flex-direction: column;
+        width: 570px;
+        justify-content: center;
+    }
+    .experiencias{
+        justify-content: center;
+        align-items: center;
+    }
+}
